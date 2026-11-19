@@ -1,0 +1,16 @@
+{
+  "published_version": 13,
+  "published_commit": "f6fdf1d7535c5809ff5581f20ce633936937dadd",
+  "source_file_count": 32,
+  "local_references_checked": 26,
+  "missing_local_files": [],
+  "temporary_external_asset_references": [],
+  "external_navigation_only": [
+    "https://vk.ru/hanimeypermanent"
+  ],
+  "external_runtime_packages": [],
+  "css_and_javascript": "Inline in dist/index.html (also preserved in dist/previous.html).",
+  "notes": [
+    "Blob URLs are created only for optional local file previews in review mode, not used as permanent assets."
+  ]
+}

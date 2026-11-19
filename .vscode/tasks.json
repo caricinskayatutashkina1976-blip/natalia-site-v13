@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Запустить сайт Натальи",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "serve.py"
+      ],
+      "windows": {
+        "command": "py",
+        "args": [
+          "-3",
+          "serve.py"
+        ]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
