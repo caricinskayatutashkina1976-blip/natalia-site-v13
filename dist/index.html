@@ -127,6 +127,16 @@ h1,.hero h1{font-size:clamp(32px,8.2vw,38px);letter-spacing:-.015em;line-height:
 h2,.portfolio .section-head h2,.about h2,.contact h2{font-size:32px;letter-spacing:-.012em;line-height:1.18}
 .brand{font-size:29px}
 h3,.service h3,.recommendation h3,.cover-caption h3{font-size:30px}
+.portfolio-cover:nth-child(1){width:72%;margin-right:auto;margin-left:0}
+.portfolio-cover:nth-child(2){width:86%;margin-top:0;margin-left:7%;margin-right:auto}
+.portfolio-cover:nth-child(3){width:100%;margin-top:0;margin-left:0;margin-right:0}
+.portfolio-cover img{max-height:none}
+}
+@media(min-width:701px){
+.portfolio-covers{grid-template-columns:.78fr .96fr 1.14fr;align-items:start;gap:28px}
+.portfolio-cover:nth-child(1){width:auto;margin:0}
+.portfolio-cover:nth-child(2){width:auto;margin:72px 0 0}
+.portfolio-cover:nth-child(3){width:auto;margin:144px 0 0}
 }
 </style></head><body><div class="site-scrollport" tabindex="0" aria-label="Содержимое сайта">
 <a class="skip" href="#main">Перейти к содержанию</a>
