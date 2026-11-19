@@ -133,10 +133,10 @@ h3,.service h3,.recommendation h3,.cover-caption h3{font-size:30px}
 .portfolio-cover img{max-height:none}
 }
 @media(min-width:701px){
-.portfolio-covers{grid-template-columns:.78fr .96fr 1.14fr;align-items:start;gap:28px}
+.portfolio-covers{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:28px}
 .portfolio-cover:nth-child(1){width:auto;margin:0}
-.portfolio-cover:nth-child(2){width:auto;margin:72px 0 0}
-.portfolio-cover:nth-child(3){width:auto;margin:144px 0 0}
+.portfolio-cover:nth-child(2){width:auto;margin:64px 0 0}
+.portfolio-cover:nth-child(3){width:auto;margin:128px 0 0}
 }
 [hidden]{display:none!important}
 .icon{width:.9em;height:.9em;display:inline-block;flex:none}
@@ -179,9 +179,9 @@ main>section{padding-block:88px}
 summary:focus-visible,.theme-option:focus-visible,.menu:focus-visible,.filter:focus-visible,.choice:focus-visible,.close:focus-visible{outline:2px solid currentColor;outline-offset:3px}
 h2,.portfolio .section-head h2,.about h2,.contact h2{font-size:clamp(34px,3vw,46px);line-height:1.16;letter-spacing:-.02em}
 @media(min-width:1200px){.br-wide{display:inline}.hero{grid-template-columns:minmax(0,.88fr) minmax(0,1fr);gap:48px}}
-@media(min-width:1024px){.portfolio-covers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start}.portfolio-cover:nth-child(2){margin-top:48px}.portfolio-cover:nth-child(3){margin-top:96px}}
+@media(min-width:900px){.portfolio-covers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:start}.portfolio-cover,.portfolio-cover:nth-child(1),.portfolio-cover:nth-child(2),.portfolio-cover:nth-child(3){width:auto!important;max-width:none;margin-left:0!important;margin-right:0!important}.portfolio-cover:nth-child(1){margin-top:0!important}.portfolio-cover:nth-child(2){margin-top:64px!important}.portfolio-cover:nth-child(3){margin-top:128px!important}.portfolio-cover img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}}
 @media(min-width:900px){.care-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:start}}
-@media(max-width:1023px){.portfolio-covers{display:grid;grid-template-columns:1fr;gap:40px;padding-bottom:0}.portfolio-cover,.portfolio-cover:nth-child(1),.portfolio-cover:nth-child(2),.portfolio-cover:nth-child(3){width:100%!important;max-width:none;margin:0!important}}
+@media(max-width:899px){.portfolio-covers{display:grid;grid-template-columns:1fr;gap:40px;padding-bottom:0}.portfolio-cover,.portfolio-cover:nth-child(1),.portfolio-cover:nth-child(2),.portfolio-cover:nth-child(3){width:100%!important;max-width:none;margin:0!important}}
 @media(max-width:767px){.service,.service:nth-child(even){grid-template-columns:1fr;gap:20px}.service:nth-child(even) .service-art{order:0}.service-copy{max-width:none}}
 @media(max-width:700px){main>section{padding-block:64px}.hero{align-items:start;padding-top:24px;padding-bottom:36px}.hero h1{font-size:clamp(32px,8.6vw,38px);line-height:1.2;letter-spacing:-.016em;max-width:100%}.hero-copy>p{margin-top:16px}.hero .actions{margin-top:22px}.menu{display:inline-flex;align-items:center;gap:.4em}footer{padding-bottom:104px}.footer-inner{align-items:flex-start}.footer-inner span{margin:0}}
 html[data-theme="dark"] .eyebrow,html[data-theme="dark"] .num,html[data-theme="dark"] .cover-caption small,html[data-theme="dark"] .prepare-label,html[data-theme="dark"] .theme-option{color:#CDBBAD}
